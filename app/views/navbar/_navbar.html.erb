@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <% if root_path != request.path %>
       <%= link_to root_path do %>
@@ -9,11 +9,20 @@
     <% end %>
     
     
-    <a class="navbar-brand" href="#">BUDGE</a>
+    <a class="navbar-brand" href="#">BUDGET</a>
     
     <% if user_signed_in? %>
       <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "btn btn-outline-light" %>
     <% end %>
+    
+    <%# <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <%# <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li> %>
+        <%# <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> %>
       </ul>
     </div>
   </div>
