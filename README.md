@@ -5,12 +5,6 @@
 > Budget is a mobile web application that allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 # Getting Started
-----
-_[Here](https://drive.google.com/file/d/1lxGV1ZORn-1vis-OriPPujdC_N6QrXhg/view?usp=sharing)  link to the project presentation video_
-
-_[Here](https://cryptic-refuge-36900.herokuapp.com/) link to the live demo_
-
----
 
 _To get a local copy up and running follow these simple steps._
 
