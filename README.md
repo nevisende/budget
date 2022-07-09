@@ -33,6 +33,14 @@ _To get a local copy up and running follow these simple steps._
    rails s 
    ```
 
+# This project was built with
+
+- Ruby on Rails
+
+- PostgreSQL
+
+- Bootstrap CSS Framework
+
 
 # Testing
 
@@ -42,24 +50,10 @@ Also, you can run `bundle exec rspec spec/` to run specific tests.
 
 You can also run `RAILS_ENV=test rspec spec/` to run the tests in test mode.
 
-## Errors
-
-If you encounter any errors, run the following commands.
-
-- Run `rails db:drop db:create db:migrate` to drop, create and migrate a new database.
-
-- Run `rubocop && rubocop -A` to check for and fix code errors.
-
-# This project was built with
-
-- Ruby on Rails
-
-- PostgreSQL
-
-- Bootstrap CSS Framework
-
 # Authors
-👤 **Kalolo Chola Lemba**
+
+👤 **Furkan Denizhan**
+
 - GitHub: [@nevisende](https://github.com/nevisende)
 - Twitter: [@nevisen_de](https://twitter.com/nevisen_de) 
 - LinkedIn: [@furkan-denizhan](https://www.linkedin.com/in/furkan-denizhan)
@@ -79,6 +73,14 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was a source of inspiration.
 - A big thanks to [@microverseinc](https://github.com/microverseinc).
 - The design template provider [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+
+## Errors
+
+If you encounter any errors, run the following commands.
+
+- Run `rails db:drop db:create db:migrate` to drop, create and migrate a new database.
+
+- Run `rubocop && rubocop -A` to check for and fix code errors.
 
 # 📝 License
 
